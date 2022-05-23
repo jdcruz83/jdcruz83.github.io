@@ -71,6 +71,11 @@ p {
     line-height: 70px;
     font-size: 1.3em;
     font-weight: 600;
+    transition: font-size 300ms ease-out;
+}
+
+.menu a:hover {
+    font-size: 2em;
 }
 
 label {
